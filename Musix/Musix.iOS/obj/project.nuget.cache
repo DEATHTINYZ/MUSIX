@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "W6+2haO1pADbJUyaJf6fQDIu+unaQo9ubtKuWMsu8DTbYwPw2TgOwTV2acQ3kpHf2dQSg7EJJWM4A+rpyxS++Q==",
+  "success": true,
+  "projectFilePath": "D:\\semester32564\\moblieDevcs356\\MUSIX\\Musix\\Musix.iOS\\Musix.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

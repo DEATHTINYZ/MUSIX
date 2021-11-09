@@ -1,0 +1,15 @@
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\bin\Debug\netstandard2.0\Musix.deps.json
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\bin\Debug\netstandard2.0\Musix.dll
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\bin\Debug\netstandard2.0\ref\Musix.dll
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\bin\Debug\netstandard2.0\Musix.pdb
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Musix.csproj.AssemblyReference.cache
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Musix.GeneratedMSBuildEditorConfig.editorconfig
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Musix.AssemblyInfoInputs.cache
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Musix.AssemblyInfo.cs
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Musix.csproj.CoreCompileInputs.cache
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\XamlC.stamp
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Musix.dll
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\ref\Musix.dll
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Musix.pdb
