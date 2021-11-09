@@ -13,6 +13,14 @@ namespace Musix
         public MainPage()
         {
             InitializeComponent();
+            Loading();
+        }
+
+        public async Task Loading()
+        {
+            imgLogo.Opacity = 0;
+            await imgLogo.FadeTo(1, 7000);
+            Application.Current.MainPage = new LoginPage();
         }
     }
 }

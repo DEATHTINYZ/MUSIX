@@ -574,3 +574,4 @@ D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix.Android\obj\Debug\110\stamp\_C
 D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix.Android\obj\Debug\110\res\drawable\logo.png

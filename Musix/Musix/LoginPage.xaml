@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Musix.LoginPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="#121212">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+
+            <StackLayout Margin="0,10,0,0" Padding="0,30,0,0" />
+
+            <Grid Grid.Row="1" Margin="20,0,20,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="200" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Image
+                    Grid.Row="1"
+                    HeightRequest="150"
+                    Source="logo.png"
+                    WidthRequest="150" />
+                <Entry
+                    Grid.Row="2"
+                    Keyboard="Email"
+                    Placeholder="Username Or Email"
+                    PlaceholderColor="#797979"
+                    TextColor="White" />
+                <Entry
+                    Grid.Row="3"
+                    IsPassword="True"
+                    Placeholder="Password"
+                    PlaceholderColor="#797979"
+                    TextColor="White" />
+                <Label
+                    Grid.Row="4"
+                    FontSize="15"
+                    HorizontalTextAlignment="End"
+                    Text="Forgot Password?"
+                    TextColor="#797979" />
+                <Button
+                    Grid.Row="5"
+                    BackgroundColor="#E2B714"
+                    CornerRadius="36"
+                    Text="Sign In"
+                    TextColor="White" />
+                <Grid Grid.Row="6">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </Grid>
+            <StackLayout Grid.Row="2" BackgroundColor="#121212">
+                <Label BackgroundColor="#797979" HeightRequest="1" />
+                <Button
+                    BackgroundColor="Transparent"
+                    Clicked="Button_Clicked"
+                    Text="Don't Have An Account? Sign Up"
+                    TextColor="#E1B714" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
