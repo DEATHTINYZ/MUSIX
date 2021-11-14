@@ -21,7 +21,8 @@
                     <RowDefinition Height="70" />
                     <RowDefinition Height="70" />
                     <RowDefinition Height="70" />
-                    <RowDefinition Height="70" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
@@ -32,35 +33,39 @@
                     WidthRequest="150" />
                 <Entry
                     Grid.Row="2"
-                    Keyboard="Email"
-                    Placeholder="Choose Your Location"
-                    PlaceholderColor="#797979"
-                    TextColor="White" />
-                <Entry
-                    Grid.Row="3"
                     Placeholder="Email Address"
                     PlaceholderColor="#797979"
                     TextColor="White" />
                 <Entry
-                    Grid.Row="4"
+                    Grid.Row="3"
                     Placeholder="Username"
                     PlaceholderColor="#797979"
                     TextColor="White" />
                 <Entry
-                    Grid.Row="5"
+                    Grid.Row="4"
                     IsPassword="True"
                     Placeholder="Password"
                     PlaceholderColor="#797979"
                     TextColor="White" />
-
                 <Button
+                    Grid.Row="5"
+                    BackgroundColor="#797979"
+                    Clicked="PickupPicture"
+                    CornerRadius="36"
+                    Text="Pick Image"
+                    TextColor="White" />
+                <Label 
                     Grid.Row="6"
+                    Text=""/>
+                <Button
+                    Grid.Row="7"
                     BackgroundColor="#E2B714"
+                    Clicked="SignUp"
                     CornerRadius="36"
                     Text="Sign Up"
                     TextColor="White" />
                 <Button
-                    Grid.Row="7"
+                    Grid.Row="8"
                     BackgroundColor="Transparent"
                     Clicked="Go_Back"
                     CornerRadius="36"

@@ -21,5 +21,15 @@ namespace Musix
         {
             Application.Current.MainPage = new LoginPage();
         }
+
+        private void PickupPicture(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SignUp(object sender, EventArgs e)
+        {
+            Application.Current.MainPage = new LoginPage();
+        }
     }
 }
