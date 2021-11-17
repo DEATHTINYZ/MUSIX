@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Musix.RegisterPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="#121212">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+
+            <StackLayout Margin="0,10,0,0" Padding="0,30,0,0" />
+
+            <Grid Grid.Row="0" Margin="20,0,20,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="200" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Image
+                    Source="{Binding Image}"
+                    Grid.Row="1"
+                    HeightRequest="150"
+                    WidthRequest="150" />
+                <Entry
+                    x:Name="Emails"
+                    Grid.Row="2"
+                    Placeholder="Email Address"
+                    PlaceholderColor="#797979"
+                    TextColor="White" />
+                <Entry
+                    x:Name="Usernames"
+                    Grid.Row="3"
+                    Placeholder="Username"
+                    PlaceholderColor="#797979"
+                    TextColor="White" />
+                <Entry
+                    x:Name="Passwords"
+                    Grid.Row="4"
+                    IsPassword="True"
+                    Placeholder="Password"
+                    PlaceholderColor="#797979"
+                    TextColor="White" />
+                <Button
+                    Grid.Row="5"
+                    BackgroundColor="#797979"
+                    Clicked="PickupPicture"
+                    CornerRadius="36"
+                    Text="Pick Image"
+                    TextColor="White" />
+                <Label 
+                    Grid.Row="6"
+                    Text=""/>
+                <Button
+                    Grid.Row="7"
+                    BackgroundColor="#E2B714"
+                    Clicked="SignUp"
+                    CornerRadius="36"
+                    Text="Sign Up"
+                    TextColor="White" />
+                <Button
+                    Grid.Row="8"
+                    BackgroundColor="Transparent"
+                    Clicked="Go_Back"
+                    CornerRadius="36"
+                    Text="Go Back"
+                    TextColor="White" />
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

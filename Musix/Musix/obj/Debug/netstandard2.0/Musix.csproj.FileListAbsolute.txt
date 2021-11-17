@@ -22,9 +22,7 @@ D:\MUSIX\Musix\Musix\bin\Debug\netstandard2.0\Musix.pdb
 D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Musix.csproj.AssemblyReference.cache
 D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Musix.GeneratedMSBuildEditorConfig.editorconfig
 D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\App.xaml.g.cs
-D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
 D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
 D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Musix.AssemblyInfoInputs.cache
 D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Musix.AssemblyInfo.cs
 D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Musix.csproj.CoreCompileInputs.cache
@@ -32,3 +30,6 @@ D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\XamlC.stamp
 D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Musix.dll
 D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\ref\Musix.dll
 D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Musix.pdb
+D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\SignUpIn\LoginPage.xaml.g.cs
+D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\SignUpIn\RegisterPage.xaml.g.cs
+D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
