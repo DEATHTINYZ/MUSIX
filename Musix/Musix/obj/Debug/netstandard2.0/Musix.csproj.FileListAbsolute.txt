@@ -13,8 +13,6 @@ D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\XamlC
 D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Musix.dll
 D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\ref\Musix.dll
 D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Musix.pdb
-D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
-D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
 D:\MUSIX\Musix\Musix\bin\Debug\netstandard2.0\Musix.deps.json
 D:\MUSIX\Musix\Musix\bin\Debug\netstandard2.0\Musix.dll
 D:\MUSIX\Musix\Musix\bin\Debug\netstandard2.0\ref\Musix.dll
@@ -33,3 +31,9 @@ D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Musix.pdb
 D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\SignUpIn\LoginPage.xaml.g.cs
 D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\SignUpIn\RegisterPage.xaml.g.cs
 D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\SignUpIn\LoginPage.xaml.g.cs
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\SignUpIn\RegisterPage.xaml.g.cs
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\CollectionPage.xaml.g.cs
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\MainTab.xaml.g.cs
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\SearchPage.xaml.g.cs

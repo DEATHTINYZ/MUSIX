@@ -38,7 +38,7 @@ namespace Musix
                 if(Users.Username == UsernameAuth.Text && Users.Password == PasswordLogin.Text)
                 {
                     await DisplayAlert("MUSIX", "YOUR WELCOME HOME PAGE", "OK");
-                    Application.Current.MainPage = new HomePage();
+                    Application.Current.MainPage = new MainTab();
                 }
                 else
                 {
@@ -50,7 +50,7 @@ namespace Musix
                 if (Emails.Email == UsernameAuth.Text && Emails.Password == PasswordLogin.Text)
                 {
                     await DisplayAlert("MUSIX", "YOUR WELCOME HOME PAGE", "OK");
-                    Application.Current.MainPage = new HomePage();
+                    Application.Current.MainPage = new MainTab();
                 }
                 else
                 {

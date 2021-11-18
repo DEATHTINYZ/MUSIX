@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage
+    x:Class="Musix.MainTab"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:Musix="clr-namespace:Musix"
+    xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+    android:TabbedPage.ToolbarPlacement="Bottom"
+    BackgroundColor="#121212"
+    BarBackgroundColor="#1a1a1a"
+    BarTextColor="White">
+    <!--  Pages can be added as references or inline  -->
+    <Musix:HomePage Title="Home" IconImageSource="home.png" />
+    <Musix:SearchPage Title="Search" IconImageSource="search.png" />
+    <Musix:CollectionPage Title="Collection" IconImageSource="collection.png" />
+</TabbedPage>
