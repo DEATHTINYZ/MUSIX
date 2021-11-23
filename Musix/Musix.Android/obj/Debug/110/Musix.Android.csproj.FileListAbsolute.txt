@@ -1303,3 +1303,7 @@ D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix.Android\obj\Debug\110\android\
 D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix.Android\obj\Debug\110\res\drawable\collection.png
 D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix.Android\obj\Debug\110\res\drawable\home.png
 D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix.Android\obj\Debug\110\res\drawable\search.png
+D:\MUSIX\Musix\Musix.Android\obj\Debug\110\res\drawable\collection.png
+D:\MUSIX\Musix\Musix.Android\obj\Debug\110\res\drawable\home.png
+D:\MUSIX\Musix\Musix.Android\obj\Debug\110\res\drawable\search.png
+D:\MUSIX\Musix\Musix.Android\obj\Debug\110\res\drawable\friends.jpg

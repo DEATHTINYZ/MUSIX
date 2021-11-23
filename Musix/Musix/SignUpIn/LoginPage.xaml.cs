@@ -19,6 +19,7 @@ namespace Musix
         public LoginPage()
         {
             InitializeComponent();
+
         }
 
 
@@ -37,7 +38,7 @@ namespace Musix
             {
                 if(Users.Username == UsernameAuth.Text && Users.Password == PasswordLogin.Text)
                 {
-                    await DisplayAlert("MUSIX", "YOUR WELCOME HOME PAGE", "OK");
+                    await DisplayAlert("MUSIX", "YOUR WELCOME TO HOME PAGE", "OK");
                     Application.Current.MainPage = new MainTab();
                 }
                 else

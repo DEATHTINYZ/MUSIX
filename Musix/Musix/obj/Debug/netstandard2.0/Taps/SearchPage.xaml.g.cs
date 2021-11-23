@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Musix.HomePage.xaml", "HomePage.xaml", typeof(global::Musix.HomePage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Musix.Taps.SearchPage.xaml", "Taps/SearchPage.xaml", typeof(global::Musix.SearchPage))]
 
 namespace Musix {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("HomePage.xaml")]
-    public partial class HomePage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Taps\\SearchPage.xaml")]
+    public partial class SearchPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(HomePage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(SearchPage));
         }
     }
 }

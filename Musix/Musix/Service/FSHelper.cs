@@ -16,7 +16,7 @@ namespace Musix.Service
 
         public FSHelper()
         {
-            this.RootName = "CS356File";
+            this.RootName = "FileImageUser";
         }
 
         public async Task<string> UploadFile(Stream fileStream, string fileName)

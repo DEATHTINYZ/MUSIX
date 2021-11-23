@@ -26,11 +26,13 @@
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
-                <Image
-                    Source="{Binding Image}"
-                    Grid.Row="1"
-                    HeightRequest="150"
-                    WidthRequest="150" />
+                <StackLayout  Grid.Row="1" WidthRequest="300"
+                HeightRequest="500" Padding="10,5,10,5">
+
+                    <Image x:Name="ImagesUser"
+                           Source="{Binding Image}"
+                           Aspect="AspectFill"/>
+                </StackLayout>
                 <Entry
                     x:Name="Emails"
                     Grid.Row="2"
@@ -51,9 +53,10 @@
                     PlaceholderColor="#797979"
                     TextColor="White" />
                 <Button
+                    x:Name="btnPickImage"
                     Grid.Row="5"
                     BackgroundColor="#797979"
-                    Clicked="PickupPicture"
+                    Clicked="btnPickImage_Clicked"
                     CornerRadius="36"
                     Text="Pick Image"
                     TextColor="White" />

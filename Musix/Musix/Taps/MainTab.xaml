@@ -12,5 +12,5 @@
     <!--  Pages can be added as references or inline  -->
     <Musix:HomePage Title="Home" IconImageSource="home.png" />
     <Musix:SearchPage Title="Search" IconImageSource="search.png" />
-    <Musix:CollectionPage Title="Collection" IconImageSource="collection.png" />
+    <Musix:CollectionPage Title="Collection" IconImageSource="collection.png"/>
 </TabbedPage>
