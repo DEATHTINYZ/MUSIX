@@ -1,16 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<TabbedPage
+<Shell
     x:Class="Musix.MainTab"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:Musix="clr-namespace:Musix"
-    xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
-    android:TabbedPage.ToolbarPlacement="Bottom"
-    BackgroundColor="#121212"
-    BarBackgroundColor="#1a1a1a"
-    BarTextColor="White">
+    BackgroundColor="#1A1A1A">
     <!--  Pages can be added as references or inline  -->
-    <Musix:HomePage Title="Home" IconImageSource="home.png" />
+    <!--<Musix:HomePage Title="Home" IconImageSource="home.png" />
     <Musix:SearchPage Title="Search" IconImageSource="search.png" />
-    <Musix:CollectionPage Title="Collection" IconImageSource="collection.png"/>
-</TabbedPage>
+    <Musix:CollectionPage Title="Collection" IconImageSource="collection.png" />-->
+
+    <!--<ShellContent>
+        <Musix:HomePage />
+    </ShellContent>
+    <ShellContent>
+        <Musix:SearchPage />
+    </ShellContent>
+    <ShellContent>
+        <Musix:CollectionPage />
+    </ShellContent> !-->
+
+
+    <FlyoutItem
+        IsTabStop="False"
+        Shell.ForegroundColor="#E2B714"
+        Shell.NavBarHasShadow="True"
+        Shell.PresentationMode="ModalAnimated"
+        Shell.TabBarTitleColor="#E2B714"
+        Shell.TabBarUnselectedColor="#797979">
+        <Tab Title="Home" Icon="home.png">
+            <ShellContent>
+                <Musix:HomePage />
+            </ShellContent>
+        </Tab>
+        <Tab Title="Search" Icon="search.png">
+            <ShellContent>
+                <Musix:SearchPage />
+            </ShellContent>
+        </Tab>
+        <Tab Title="Collection" Icon="collection.png">
+            <ShellContent>
+                <Musix:CollectionPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+
+    <MenuItem Command="{Binding ExecuteLogout}" Text="Logout" />
+
+</Shell>

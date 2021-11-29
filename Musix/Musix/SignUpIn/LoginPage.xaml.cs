@@ -19,7 +19,6 @@ namespace Musix
         public LoginPage()
         {
             InitializeComponent();
-
         }
 
 
@@ -63,5 +62,6 @@ namespace Musix
                 await DisplayAlert("Wrong", "Have no this user and email", "OK");
             }
         }
+
     }
 }

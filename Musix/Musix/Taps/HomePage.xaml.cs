@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Musix.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,9 +15,18 @@ namespace Musix
     {
         public HomePage()
         {
+            BindingContext = new GenreViewModel();
             InitializeComponent();
+        }
+
+        private void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
 
         }
 
+        private void ListView_Unfocused(object sender, FocusEventArgs e)
+        {
+
+        }
     }
 }
