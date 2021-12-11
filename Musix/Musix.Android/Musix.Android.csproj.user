@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <SelectedDevice>week002</SelectedDevice>
-    <ActiveDebugProfile>week002</ActiveDebugProfile>
-    <DefaultDevice>week002</DefaultDevice>
+    <SelectedDevice>mainphone</SelectedDevice>
+    <ActiveDebugProfile>mainphone</ActiveDebugProfile>
+    <DefaultDevice>mainphone</DefaultDevice>
     <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

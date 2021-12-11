@@ -6,12 +6,11 @@
     Title="SEARCH"
     BackgroundColor="#121212">
     <ContentPage.Content>
-        <StackLayout>
-            <Label
-                HorizontalOptions="CenterAndExpand"
-                Text="Search"
-                TextColor="White"
-                VerticalOptions="CenterAndExpand" />
+        <StackLayout Margin="15">
+            <SearchBar
+                BackgroundColor="#1A1A1A"
+                CancelButtonColor="White"
+                TextColor="White" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

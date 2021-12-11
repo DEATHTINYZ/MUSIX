@@ -46,6 +46,7 @@
     </FlyoutItem>
 
 
+    <MenuItem Command="{Binding ExecuteProfile}" Text="Profile" />
     <MenuItem Command="{Binding ExecuteLogout}" Text="Logout" />
 
 </Shell>

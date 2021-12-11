@@ -1,4 +1,13 @@
+ExoPlayer.Core.dll
+ExoPlayer.Dash.dll
+ExoPlayer.dll
+ExoPlayer.Ext.MediaSession.dll
+ExoPlayer.Hls.dll
+ExoPlayer.SmoothStreaming.dll
+ExoPlayer.UI.dll
 FormsViewGroup.dll
+MediaManager.dll
+MediaManager.Forms.dll
 Plugin.Media.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll
@@ -53,6 +62,7 @@ Xamarin.AndroidX.VersionedParcelable.dll
 Xamarin.AndroidX.ViewPager.dll
 Xamarin.AndroidX.ViewPager2.dll
 Xamarin.Essentials.dll
+Xamarin.Forms.PancakeView.dll
 Xamarin.Forms.Platform.Android.dll
 Xamarin.Forms.Platform.dll
 Xamarin.Google.Android.Material.dll

@@ -6,12 +6,11 @@
     Title="COLLECTION"
     BackgroundColor="#121212">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Margin="20">
             <Label
-                HorizontalOptions="CenterAndExpand"
-                Text="Collection"
-                TextColor="White"
-                VerticalOptions="CenterAndExpand" />
+                FontSize="30"
+                Text="Music List"
+                TextColor="White" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

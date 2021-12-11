@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Musix.Taps.ProfilePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="#121212">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="300" />
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+
+            <StackLayout Margin="0,10,0,0" Padding="0,30,0,0" />
+
+            <Grid Grid.Row="0" Margin="20,0,20,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200" />
+                </Grid.RowDefinitions>
+                <Image
+                    Grid.Row="0"
+                    HeightRequest="150"
+                    Source="logo.png"
+                    WidthRequest="150" />
+            </Grid>
+
+            <StackLayout
+                Grid.Row="1"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand">
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="130" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        FontSize="20"
+                        HorizontalOptions="Center"
+                        Text="Email:"
+                        TextColor="White" />
+                    <Label
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        FontSize="20"
+                        Text="disneyza123@gmail.com"
+                        TextColor="White" />
+                    <Label
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        FontSize="20"
+                        HorizontalOptions="End"
+                        Text="Username:"
+                        TextColor="White" />
+                    <Label
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        FontSize="20"
+                        Text="Deathtinyz"
+                        TextColor="White" />
+                    <Label
+                        Grid.Row="2"
+                        Grid.Column="0"
+                        FontSize="20"
+                        HorizontalOptions="End"
+                        Text="Password:"
+                        TextColor="White" />
+                    <Label
+                        Grid.Row="2"
+                        Grid.Column="1"
+                        FontSize="20"
+                        Text="adasdsadasdas"
+                        TextColor="White" />
+                </Grid>
+            </StackLayout>
+
+            <Button
+                Grid.Row="2"
+                Margin="10,0,10,0"
+                BackgroundColor="#E2B714"
+                CornerRadius="50"
+                Text="Edit"
+                TextColor="White" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

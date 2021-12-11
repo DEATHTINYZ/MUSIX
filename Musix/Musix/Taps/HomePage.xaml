@@ -3,20 +3,30 @@
     x:Class="Musix.HomePage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:musix="clr-namespace:Musix"
+    xmlns:pv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    xmlns:vm="clr-namespace:Musix.ViewModel"
     Title="HOME"
     BackgroundColor="#121212"
-    Shell.PresentationMode="ModalAnimated">
+    NavigationPage.HasNavigationBar="False"
+    Shell.PresentationMode="ModalAnimated"
+    mc:Ignorable="d">
+
+    <ContentPage.BindingContext>
+        <vm:HomeViewModel />
+    </ContentPage.BindingContext>
 
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto" />
-                <RowDefinition Height="auto" />
+                <RowDefinition Height="2*" />
             </Grid.RowDefinitions>
 
             <StackLayout Margin="15,10,15,0" Padding="0,0,0,0" />
-            <Grid Grid.Row="0" Margin="15,10,15,0">
+            <Grid Grid.Row="0" Margin="15,40,15,0">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto" />
                     <RowDefinition Height="auto" />
@@ -37,35 +47,56 @@
                     Text="Playlist"
                     TextColor="White" />
             </Grid>
-
-            <ListView
+            <CollectionView
                 Grid.Row="1"
-                HasUnevenRows="True"
-                ItemsSource="{Binding GenreList}"
-                SelectionMode="None"
-                SeparatorVisibility="None">
-                <ListView.ItemTemplate>
+                Margin="20,20"
+                HorizontalOptions="FillAndExpand"
+                ItemsSource="{Binding MusicList}"
+                SelectedItem="{Binding SelectedMusic}"
+                SelectionChangedCommand="{Binding SelectionCommand}"
+                SelectionMode="Single"
+                VerticalOptions="FillAndExpand">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout ItemSpacing="10" Orientation="Vertical" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell>
-                            <Grid Grid.Row="1">
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="auto" />
-                                </Grid.RowDefinitions>
-                                <Button
-                                    Grid.Row="0"
-                                    Margin="10,15"
-                                    BackgroundColor="#1A1A1A"
-                                    CornerRadius="20"
-                                    HeightRequest="50"
-                                    Text="{Binding NameGenre}"
-                                    TextColor="White"
-                                    WidthRequest="50" />
-                            </Grid>
-                        </ViewCell>
+                        <Grid
+                            Padding="15,10"
+                            BackgroundColor="#1A1A1A"
+                            HorizontalOptions="FillAndExpand">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <StackLayout VerticalOptions="Center">
+                                <Label
+                                    FontSize="17"
+                                    Text="{Binding Title}"
+                                    TextColor="White" />
+                                <Label
+                                    FontSize="17"
+                                    Text="{Binding Artist}"
+                                    TextColor="#797979" />
+                            </StackLayout>
+                            <pv:PancakeView
+                                BackgroundColor="White"
+                                CornerRadius="20"
+                                HeightRequest="40"
+                                HorizontalOptions="End"
+                                VerticalOptions="Center"
+                                WidthRequest="40">
+                                <Image
+                                    HeightRequest="12"
+                                    HorizontalOptions="Center"
+                                    Source="playBlack.png"
+                                    VerticalOptions="Center"
+                                    WidthRequest="10" />
+                            </pv:PancakeView>
+                        </Grid>
                     </DataTemplate>
-                </ListView.ItemTemplate>
-
-            </ListView>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
