@@ -15,29 +15,28 @@ namespace Musix
     public partial class LoginPage : ContentPage
     {
         public static IDataStore<Profile> DataStore => DependencyService.Get<IDataStore<Profile>>();
-
+        public static string SetUsername;
+        public static bool IsEmails = true;
         public LoginPage()
         {
             InitializeComponent();
         }
-
-
         private void RegisterPage(object sender, EventArgs e)
         {
             Application.Current.MainPage = new RegisterPage();
-
         }
 
         async void SignUp(object sender, EventArgs e)
         {
             var Users = await LoginPage.DataStore.GetItemAsync(UsernameAuth.Text);
             var Emails = await LoginPage.DataStore.GetItemAsyncEmail(UsernameAuth.Text);
-
             if(Users != null)
             {
                 if(Users.Username == UsernameAuth.Text && Users.Password == PasswordLogin.Text)
                 {
                     await DisplayAlert("MUSIX", "YOUR WELCOME TO HOME PAGE", "OK");
+                    SetUsername = UsernameAuth.Text;
+                    IsEmails = false;
                     Application.Current.MainPage = new MainTab();
                 }
                 else
@@ -50,6 +49,8 @@ namespace Musix
                 if (Emails.Email == UsernameAuth.Text && Emails.Password == PasswordLogin.Text)
                 {
                     await DisplayAlert("MUSIX", "YOUR WELCOME HOME PAGE", "OK");
+                    SetUsername = UsernameAuth.Text;
+                    IsEmails = true;
                     Application.Current.MainPage = new MainTab();
                 }
                 else

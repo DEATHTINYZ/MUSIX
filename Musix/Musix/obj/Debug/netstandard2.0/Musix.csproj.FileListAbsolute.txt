@@ -42,3 +42,6 @@ D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Taps\
 D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Taps\SearchPage.xaml.g.cs
 D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Taps\ProfilePage.xaml.g.cs
 D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Taps\PlaySongPage.xaml.g.cs
+D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Taps\PlaySongPage.xaml.g.cs
+D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\Taps\ProfilePage.xaml.g.cs
+D:\MUSIX\Musix\Musix\obj\Debug\netstandard2.0\EditProfile.xaml.g.cs

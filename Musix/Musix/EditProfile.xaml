@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Musix.EditProfile"
+             BackgroundColor="#222">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+
+            <StackLayout Margin="0,10,0,0" Padding="0,30,0,0" />
+
+            <Grid Grid.Row="0" Margin="20,0,20,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="200" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="70" />
+                </Grid.RowDefinitions>
+                
+                <Image
+                    Grid.Row="1"
+                    HeightRequest="150"
+                    Source="logo.png"
+                    WidthRequest="150" />
+                <Entry
+                    x:Name="Emails"
+                    Grid.Row="2"
+                    Placeholder="Email Address"
+                    PlaceholderColor="#797979"
+                    TextColor="White" />
+                <Entry
+                    x:Name="Usernames"
+                    Grid.Row="3"
+                    Placeholder="Username"
+                    PlaceholderColor="#797979"
+                    TextColor="White" />
+                <Entry
+                    x:Name="Passwords"
+                    Grid.Row="4"
+                    Placeholder="Password"
+                    PlaceholderColor="#797979"
+                    TextColor="White" />
+                <Button
+                    Grid.Row="6"
+                    BackgroundColor="#E2B714"
+                    Clicked="EditsProfile"
+                    CornerRadius="36"
+                    Text="Edit Profile"
+                    TextColor="White" />
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

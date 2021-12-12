@@ -2170,24 +2170,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\semester32564\\moblieDevcs356\\MUSIX\\Musix\\Musix.iOS\\Musix.iOS.csproj",
+      "projectUniqueName": "D:\\MUSIX\\Musix\\Musix.iOS\\Musix.iOS.csproj",
       "projectName": "Musix.iOS",
-      "projectPath": "D:\\semester32564\\moblieDevcs356\\MUSIX\\Musix\\Musix.iOS\\Musix.iOS.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "D:\\semester32564\\moblieDevcs356\\MUSIX\\Musix\\Musix.iOS\\obj\\",
+      "projectPath": "D:\\MUSIX\\Musix\\Musix.iOS\\Musix.iOS.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\MUSIX\\Musix\\Musix.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2201,8 +2201,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\semester32564\\moblieDevcs356\\MUSIX\\Musix\\Musix\\Musix.csproj": {
-              "projectPath": "D:\\semester32564\\moblieDevcs356\\MUSIX\\Musix\\Musix\\Musix.csproj"
+            "D:\\MUSIX\\Musix\\Musix\\Musix.csproj": {
+              "projectPath": "D:\\MUSIX\\Musix\\Musix\\Musix.csproj"
             }
           }
         }

@@ -14,7 +14,7 @@ namespace Musix {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Taps\\MainTab.xaml")]
-    public partial class MainTab : global::Xamarin.Forms.TabbedPage {
+    public partial class MainTab : global::Xamarin.Forms.Shell {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {

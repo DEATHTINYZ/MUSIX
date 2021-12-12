@@ -103,3 +103,13 @@ androidx.preference.preference.aar
 androidx.navigation.navigation-common.aar
 androidx.navigation.navigation-runtime.aar
 androidx.navigation.navigation-ui.aar
+ExoPlayer.Core.dll
+ExoPlayer.Dash.dll
+ExoPlayer.dll
+ExoPlayer.Ext.MediaSession.dll
+ExoPlayer.Hls.dll
+ExoPlayer.SmoothStreaming.dll
+ExoPlayer.UI.dll
+MediaManager.dll
+MediaManager.Forms.dll
+Xamarin.Forms.PancakeView.dll

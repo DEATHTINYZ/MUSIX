@@ -18,11 +18,11 @@ namespace Musix
             InitializeComponent();
             BindingContext = this;
             Routing.RegisterRoute("//LoginPage", typeof(LoginPage));
-            Routing.RegisterRoute("//ProfilePage", typeof(ProfilePage));
+            Routing.RegisterRoute("//EditProfile", typeof(EditProfile));
         }
 
         public ICommand ExecuteLogout => new Command(async () => await GoToAsync("//LoginPage"));
-        public ICommand ExecuteProfile => new Command(async () => await GoToAsync("//ProfilePage"));
+        public ICommand ExecuteEditProfile => new Command(async () => await GoToAsync("//EditProfile"));
 
 /*        private void MenuItem_Clicked(object sender, EventArgs e)
         {

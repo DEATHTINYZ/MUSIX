@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using Firebase.Database;
 using Firebase.Database.Query;
 using Musix.Model;
-using Musix.Service;
 
 namespace Musix.Service
 {
@@ -51,10 +50,10 @@ namespace Musix.Service
               .Child("Items")
               .OnceAsync<Profile>()).Select(item => new Profile
               {
+                  ID = item.Object.ID,
                   Username = item.Object.Username,
                   Password = item.Object.Password,
                   Email = item.Object.Email,
-                  ImageFiles = item.Object.ImageFiles
               }).ToList();
         }
 
@@ -63,7 +62,7 @@ namespace Musix.Service
             var toUpdatePerson = (await firebase
               .Child("Items")
               .OnceAsync<Profile>())
-              .Where(a => a.Object.Username == item.Username)
+              .Where(a => a.Object.ID == item.ID)
               .FirstOrDefault();
 
             await firebase
