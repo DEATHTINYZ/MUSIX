@@ -1,4 +1,5 @@
-﻿using Musix.ViewModel;
+﻿using Musix.Taps;
+using Musix.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,11 @@ namespace Musix
         public HomePage()
         {
             InitializeComponent();
+        }
+
+        private void Playlist_Click(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AddSongPage());
         }
     }
 }

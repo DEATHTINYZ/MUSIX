@@ -3,14 +3,67 @@
     x:Class="Musix.SearchPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
     Title="SEARCH"
     BackgroundColor="#121212">
     <ContentPage.Content>
         <StackLayout Margin="15">
             <SearchBar
+                x:Name="Search"
                 BackgroundColor="#1A1A1A"
                 CancelButtonColor="White"
+                Placeholder="search"
+                PlaceholderColor="White"
+                TextChanged="Search_Text"
                 TextColor="White" />
+            <CollectionView
+                x:Name="col"
+                Margin="20,20"
+                HorizontalOptions="FillAndExpand"
+                ItemsSource="{Binding Mlist}"
+                SelectionMode="Single"
+                VerticalOptions="FillAndExpand">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout ItemSpacing="10" Orientation="Vertical" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid
+                            Padding="15,10"
+                            BackgroundColor="#1A1A1A"
+                            HorizontalOptions="FillAndExpand">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <StackLayout VerticalOptions="Center">
+                                <Label
+                                    FontSize="17"
+                                    Text="{Binding Title}"
+                                    TextColor="White" />
+                                <Label
+                                    FontSize="17"
+                                    Text="{Binding Artist}"
+                                    TextColor="#797979" />
+                            </StackLayout>
+                            <pv:PancakeView
+                                BackgroundColor="White"
+                                CornerRadius="20"
+                                HeightRequest="40"
+                                HorizontalOptions="End"
+                                VerticalOptions="Center"
+                                WidthRequest="40">
+                                <Image
+                                    HeightRequest="12"
+                                    HorizontalOptions="Center"
+                                    Source="playBlack.png"
+                                    VerticalOptions="Center"
+                                    WidthRequest="10" />
+                            </pv:PancakeView>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

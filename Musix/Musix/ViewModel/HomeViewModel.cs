@@ -60,11 +60,11 @@ namespace Musix.ViewModel
                 var viewModel = new PlaySongViewModel(selectedMusic, musicList);
                 var playerPage = new PlaySongPage { BindingContext = viewModel };
 
-                var navigation = Application.Current.MainPage as NavigationPage;
-                navigation.PushAsync(playerPage, true);
+                /*var navigation = Application.Current.MainPage as NavigationPage;
+                navigation.PushAsync(playerPage, true);*/
+                Application.Current.MainPage = new PlaySongPage { BindingContext = viewModel };
             }
         }
-
         private ObservableCollection<Music> GetMusics()
         {
             return new ObservableCollection<Music>

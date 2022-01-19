@@ -34,6 +34,7 @@
                 <Button
                     Grid.Row="0"
                     BackgroundColor="#E2B714"
+                    Clicked="Playlist_Click"
                     CornerRadius="35"
                     HeightRequest="70"
                     HorizontalOptions="Center"

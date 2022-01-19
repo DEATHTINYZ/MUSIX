@@ -4,21 +4,8 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:Musix="clr-namespace:Musix"
-    BackgroundColor="#1A1A1A">
-    <!--  Pages can be added as references or inline  -->
-    <!--<Musix:HomePage Title="Home" IconImageSource="home.png" />
-    <Musix:SearchPage Title="Search" IconImageSource="search.png" />
-    <Musix:CollectionPage Title="Collection" IconImageSource="collection.png" />-->
-
-    <!--<ShellContent>
-        <Musix:HomePage />
-    </ShellContent>
-    <ShellContent>
-        <Musix:SearchPage />
-    </ShellContent>
-    <ShellContent>
-        <Musix:CollectionPage />
-    </ShellContent> !-->
+    BackgroundColor="#1A1A1A"
+    NavigationPage.HasNavigationBar="False">
 
 
     <FlyoutItem

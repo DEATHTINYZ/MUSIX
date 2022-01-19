@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Musix.EditProfile"
-             BackgroundColor="#222">
+<ContentPage
+    x:Class="Musix.EditProfile"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Profile"
+    BackgroundColor="#121212">
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto" />
-                <RowDefinition Height="*" />
+                <RowDefinition Height="300" />
                 <RowDefinition Height="50" />
             </Grid.RowDefinitions>
 
@@ -15,45 +17,93 @@
 
             <Grid Grid.Row="0" Margin="20,0,20,0">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
                     <RowDefinition Height="200" />
-                    <RowDefinition Height="70" />
-                    <RowDefinition Height="70" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="70" />
                 </Grid.RowDefinitions>
-                
                 <Image
-                    Grid.Row="1"
+                    Grid.Row="0"
                     HeightRequest="150"
                     Source="logo.png"
                     WidthRequest="150" />
-                <Entry
-                    x:Name="Emails"
-                    Grid.Row="2"
-                    Placeholder="Email Address"
-                    PlaceholderColor="#797979"
-                    TextColor="White" />
-                <Entry
-                    x:Name="Usernames"
-                    Grid.Row="3"
-                    Placeholder="Username"
-                    PlaceholderColor="#797979"
-                    TextColor="White" />
-                <Entry
-                    x:Name="Passwords"
-                    Grid.Row="4"
-                    Placeholder="Password"
-                    PlaceholderColor="#797979"
-                    TextColor="White" />
-                <Button
-                    Grid.Row="6"
-                    BackgroundColor="#E2B714"
-                    Clicked="EditsProfile"
-                    CornerRadius="36"
-                    Text="Edit Profile"
-                    TextColor="White" />
             </Grid>
+
+            <StackLayout
+                Grid.Row="1"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand">
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="50" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="130" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        FontSize="20"
+                        HorizontalOptions="Center"
+                        Text="Email:"
+                        TextColor="White" />
+                    <Entry
+                        x:Name="Emails"
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        Margin="0,0,40,10"
+                        FontSize="20"
+                        Placeholder="Email Address"
+                        PlaceholderColor="#797979"
+                        TextColor="White" />
+                    <Label
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        FontSize="20"
+                        HorizontalOptions="End"
+                        Text="Username:"
+                        TextColor="White" />
+                    <Entry
+                        x:Name="Usernames"
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Margin="0,0,40,10"
+                        FontSize="20"
+                        Placeholder="Username"
+                        PlaceholderColor="#797979"
+                        TextColor="White" />
+                    <Label
+                        Grid.Row="2"
+                        Grid.Column="0"
+                        FontSize="20"
+                        HorizontalOptions="End"
+                        Text="Password:"
+                        TextColor="White" />
+                    <Entry
+                        x:Name="Passwords"
+                        Grid.Row="2"
+                        Grid.Column="1"
+                        Margin="0,0,40,10"
+                        FontSize="20"
+                        IsPassword="True"
+                        Placeholder="Password"
+                        PlaceholderColor="#797979"
+                        TextColor="White" />
+                </Grid>
+            </StackLayout>
+
+            <Button
+                Grid.Row="2"
+                Margin="10,0,10,0"
+                BackgroundColor="#E2B714"
+                Clicked="EditsProfile"
+                CornerRadius="50"
+                Text="Edit Profile"
+                TextColor="White" />
+
+
         </Grid>
     </ContentPage.Content>
 </ContentPage>

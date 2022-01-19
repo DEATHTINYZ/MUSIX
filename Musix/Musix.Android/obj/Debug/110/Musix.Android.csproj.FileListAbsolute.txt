@@ -1470,3 +1470,9 @@ D:\MUSIX\Musix\Musix.Android\obj\Debug\110\android\src\mono\com\google\android\e
 D:\MUSIX\Musix\Musix.Android\obj\Debug\110\android\src\mono\com\google\android\exoplayer2\video\VideoFrameMetadataListenerImplementor.java
 D:\MUSIX\Musix\Musix.Android\obj\Debug\110\android\src\mono\com\google\android\exoplayer2\video\VideoListenerImplementor.java
 D:\MUSIX\Musix\Musix.Android\obj\Debug\110\android\src\mono\com\google\android\exoplayer2\video\VideoRendererEventListenerImplementor.java
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix.Android\obj\Debug\110\res\drawable\pause.png
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix.Android\obj\Debug\110\res\drawable\play.png
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix.Android\obj\Debug\110\res\drawable\previous.png
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix.Android\obj\Debug\110\res\drawable\back.png
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix.Android\obj\Debug\110\res\drawable\next.png
+D:\semester32564\moblieDevcs356\MUSIX\Musix\Musix.Android\obj\Debug\110\res\drawable\trash.png
